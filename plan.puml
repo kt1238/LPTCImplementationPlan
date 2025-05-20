@@ -1,0 +1,18 @@
+@startgantt
+printscale weekly
+[Designing Prototype] requires 2 weeks
+[Development] requires 8 weeks
+[Website Integration] requires 1 weeks
+[Call Hold Integration] requires 1 weeks
+[Casebook Integration] requires 2 weeks
+[Testing] requires 3 weeks
+[Adviser Training] requires 1 weeks
+
+[Designing Prototype] -> [Development]
+[Development] -> [Website Integration]
+[Development] -> [Call Hold Integration]
+[Call Hold Integration] -> [Casebook Integration]
+[Casebook Integration] -> [Testing]
+[Testing] -> [Adviser Training]
+
+@endgantt
