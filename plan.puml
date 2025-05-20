@@ -1,5 +1,6 @@
 @startgantt
 printscale weekly
+[Eliciting Requirements] requires 3 weeks
 [Designing Prototype] requires 2 weeks
 [Development] requires 8 weeks
 [Website Integration] requires 1 weeks
@@ -8,6 +9,7 @@ printscale weekly
 [Testing] requires 3 weeks
 [Adviser Training] requires 1 weeks
 
+[Eliciting Requirements] -> [Designing Prototype]
 [Designing Prototype] -> [Development]
 [Development] -> [Website Integration]
 [Development] -> [Call Hold Integration]
@@ -16,5 +18,3 @@ printscale weekly
 [Testing] -> [Adviser Training]
 
 @endgantt
-
-'git test'
